@@ -1,0 +1,98 @@
+[
+    {                   
+        "name" : "Gpt1",
+        "src" : "assets/svg/gpt1.svg"
+    },
+    {                   
+        "name" : "Gpt2",
+        "src" : "assets/svg/gpt2.svg"
+    },
+    {                   
+        "name" : "Gpt3",
+        "src" : "assets/svg/gpt3.svg"
+    },
+    {                   
+        "name" : "Lady Gaga",
+        "src" : "assets/svg/ladygaga.svg"
+    },
+    {                   
+        "name" : "Catgirl",
+        "src" : "assets/svg/catgirl.svg"
+    },
+    {                   
+        "name" : "Allen the Alien",
+        "src" : "assets/svg/allenthealien.svg"
+    },
+    {                   
+        "name" : "Black Beard",
+        "src" : "assets/svg/blackbeard.svg"
+    },
+    {                   
+        "name" : "Marilyn Monroe",
+        "src" : "assets/svg/marilynmonroe.svg"
+    },
+    {                   
+        "name" : "Barack Obama",
+        "src" : "assets/svg/barackobama.svg"
+    },
+    {                   
+        "name" : "Tutankamen",
+        "src" : "assets/svg/tutankamen.svg"
+    },
+    {                   
+        "name" : "Nikolas Tesla",
+        "src" : "assets/svg/nikolastesla.svg"
+    },
+    {                   
+        "name" : "Hilary Clinton",
+        "src" : "assets/svg/hilaryclinton.svg"
+    },
+    {                   
+        "name" : "Slash",
+        "src" : "assets/svg/slash.svg"
+    },
+    {                   
+        "name" : "David Bowie",
+        "src" : "assets/svg/davidbowie.svg"
+    },
+    {                   
+        "name" : "Nefertiti",
+        "src" : "assets/svg/nefertiti.svg"
+    },
+    {                   
+        "name" : "Batman",
+        "src" : "assets/svg/batman.svg"
+    },
+    {                   
+        "name" : "Gandi",
+        "src" : "assets/svg/gandi.svg"
+    },
+    {                   
+        "name" : "Deadpool",
+        "src" : "assets/svg/deadpool.svg"
+    },
+    {                   
+        "name" : "Einshtein",
+        "src" : "assets/svg/einshtein.svg"
+    },
+    {                   
+        "name" : "Donald Trump",
+        "src" : "assets/svg/donaldtrump.svg"
+    },
+    {                   
+        "name" : "Steve Jobs",
+        "src" : "assets/svg/stevejobs.svg"
+    },
+    {                   
+        "name" : "Neo",
+        "src" : "assets/svg/neo.svg"
+    },
+    {                   
+        "name" : "Tupac",
+        "src" : "assets/svg/tupac.svg"
+    },
+    {                   
+        "name" : "Winehouse",
+        "src" : "assets/svg/amywinehouse.svg"
+    }
+]

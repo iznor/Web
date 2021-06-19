@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(255, 245, 245);
+}
+
+.wrapper {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 750px;
+}
+
+.buss-card {
+  margin-top: -20px;
+  margin: 0px auto;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 300px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.bottom {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: rgb(245, 245, 245);
+  border: 15px #ffffff solid;
+}
+.bottom .left {
+  display: grid;
+  letter-spacing: 0.03cm;
+  width: 50%;
+  height: 50%;
+  align-content: center;
+  justify-content: center;
+}
+
+.left p {
+  display: flex;
+  letter-spacing: 0.03cm;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  font-variant: small-caps;
+  padding-left: 10px;
+  color: #525252;
+  width: 100%;
+}
+
+.left p.name {
+  display: flex;
+  font-size: 36px;
+  margin-right: 15px;
+  margin-top: -1px;
+  justify-content: center;
+  width: 100% auto;
+}
+.left p.role {
+  display: flex;
+  font-size: 18px;
+  width: 100%;
+  margin-top: -20px;
+  margin-right: 15px;
+}
+.bottom .right {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-left: 5px;
+  align-items: center;
+  border-left: 3px #525252 solid;
+}
+ul {
+  display: grid;
+  list-style: none;
+  margin-left: -15px;
+  width: 100%;
+}
+ul li {
+  display: block;
+  margin: 10px;
+  font-size: 15px;
+  color: #525252;
+}
+footer {
+  position: absolute;
+  display: flex;
+  width: 88%;
+  justify-content: center;
+  font-size: 18px;
+  color: #525252;
+  padding-top: 700px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}

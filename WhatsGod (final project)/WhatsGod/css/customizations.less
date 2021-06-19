@@ -1,0 +1,124 @@
+@import "globals.less";
+
+#customizations{
+    display       : flex;
+    position      : relative;
+    flex-direction: column;
+    align-items   : center;
+    width         : 100%;
+    max-width     : var(--appMaxWidth);
+    margin        : 30px auto;
+    header {
+        width          : 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height:40px;
+        padding-bottom: 20px;
+        box-shadow     : 0 3px 0 var(--appShadow);
+    }
+    .customizations-container{
+        width    : var(--subAppWidth);
+        max-width: var(--subAppMaxWidth);
+        .customization-category{
+            text-align: left;
+            .category-title{
+                margin-top:20px;
+                border-bottom: 1px solid var(--appLightGray);
+                padding-bottom:5px;
+                .prefix{
+                    margin-left:20px;
+                }
+            }
+            .player-pick {
+                background-color: white;
+                width           : 180px;
+                height          : 98px;
+                border-radius   : 60px;
+                font-weight     : bold;
+                box-shadow      : var(--standardShadow);
+                border          : none;
+                .selected{
+                    background-color: var(--appLightGray);
+                }
+                &:hover{
+                    background:var(--appLightGray);
+                    filter:brightness(104%);
+                    color:var(--blackTextFocus);
+                }
+                img {
+                    margin-top: 14px;
+                }
+        
+                p {
+                    margin-top: 0;
+                    font-size: 20px;
+                }
+            }
+
+            .roles-container{
+                margin-top:20px;
+                display:flex;
+                justify-content: center;
+                .selected{
+                    background-color: var(--appLightGray);
+                }
+                .player-pick{
+                    margin:0 10px;
+                }
+            }
+            .options-grid{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .selected{
+                    background-color: var(--appLightGray);
+                }
+                button{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border:none;
+                    outline:none;
+                    width:120px;
+                    background-color: white;
+                    box-shadow      : var(--standardShadow);
+                    border-radius:12px;
+                    padding:10px;
+                    margin:10px;
+                    &:hover{
+                        background:var(--appLightGray);
+                        filter:brightness(102%);
+                        color:var(--blackTextFocus);
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 500;
+                        margin:0;
+                    }
+                }
+            }
+            .time-limit{
+                margin-top:20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .clock{
+                    width:200px;
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom:30px;
+                    margin-top:8px;
+                    font-weight: bold;
+                }
+            }
+        }
+       
+    }
+   
+}

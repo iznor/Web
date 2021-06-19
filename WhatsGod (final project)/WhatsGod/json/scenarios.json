@@ -1,0 +1,26 @@
+[
+    {                   
+        "name" : "Forgiveness",
+        "src" : "assets/png/forgiveness.png"
+    },
+    {                   
+        "name" : "Judgement",
+        "src" : "assets/svg/hammer.svg"
+    },
+    {                   
+        "name" : "Brainstorm",
+        "src" : "assets/svg/brainstorm.svg"
+    },
+    {                   
+        "name" : "Interview",
+        "src" : "assets/png/interview.png"
+    },
+    {                   
+        "name" : "Sign a Contract",
+        "src" : "assets/png/signacontract.png"
+    },
+    {                   
+        "name" : "Crash",
+        "src" : "assets/svg/crash.svg"
+    }                   
+]

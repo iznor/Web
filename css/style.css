@@ -1,0 +1,198 @@
+* {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  display: block;
+  background-color: rgb(102, 184, 153);
+}
+
+
+
+.container {
+  display: flexbox;
+  background-color: rgb(255, 213, 97);
+  height: 100%;
+  border: solid white 15px;
+  border-radius: 5px;
+  box-shadow: black;
+  /* border: solid black 1px; */
+}
+
+.tab {
+  border-radius: 50px;
+  display: inline-block;
+  max-width: 275px;
+  width: 100%;
+  /* height: 200px; */
+  list-style: none;
+  background-color: rgb(253, 193, 28);
+  margin: 3%;
+  /* border: solid black 1px; */
+}
+
+.link {
+  /* border: solid black 1px; */
+  border-radius: 50px;
+  display: block;
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  padding-top: 42px;
+  font-family: "Dela Gothic One", cursive;
+  height: 100px;
+  margin: auto;
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  font-size: 36px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.link:hover {
+  background-color: rgb(255, 238, 192);
+}
+
+.name {
+  padding-left: 18%;
+  /* border: solid black 1px; */
+  margin: 25px auto;
+  /* padding: 0px; */
+  display: block;
+  /* position: absolute; */
+  font-size: 85px;
+  font-family: "Dela Gothic One", cursive;
+  font-family: "Train One", cursive;
+}
+
+.last {
+  padding-left: 22%;
+  font-size: 100px;
+  /* font-family: 'Dela Gothic One', cursive; */
+  font-family: "Train One", cursive;
+  /* font-family: 'Lobster', cursive; */
+}
+
+.bottom {
+  float: right;
+  margin-right: 18%;
+  padding-bottom: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(43, 88, 71);
+  /* border: solid black 1px; */
+}
+footer p {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font: bold; */
+  font-size: 32px;
+  padding-left: 5%;
+  color: white;
+  bottom: 0px;
+
+  /* border: solid black 1px; */
+}
+
+.social {
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 5%;
+  color: white;
+}
+
+img {
+  margin-right: 10px;
+  /* border: solid black 1px; */
+}
+.name-sec {
+  display: block;
+  /* border: solid black 1px; */
+}
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {  
+      .container {
+        display: flex;
+        background-color: rgb(255, 238, 192);
+        max-height: 1600px;
+        height: 100%;
+        /* width: 100%; */
+        border: solid white 15px;
+        border-radius: 5px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+        box-shadow: black;
+        margin-top: 50px;
+
+    }
+    .tab {
+      border-radius: 50px;
+      display: inline-block;
+      justify-content: center;
+      max-width: 300px;
+      width: 100%;
+      height: 300px;
+      /* margin-top: 100px; */
+      margin-bottom: 100px;
+      list-style: none;
+      background-color: rgb(253, 193, 28));
+      /* border: solid black 1px; */
+    }
+    .link {
+      /* border: solid black 1px; */
+      border-radius: 50px;
+      display: block;
+      /* position: absolute; */
+      text-align: center;
+      width: 300px;
+      padding-top: 42px;
+      font-family: "Dela Gothic One", cursive;
+      height: 100px;
+      padding-top: 75px;
+      margin: 0 auto;
+      font-family: "Permanent Marker", cursive;
+      color: black;
+      font-size: 100px;
+      transition: background-color 0.2s ease-in-out;
+    }
+    .name {
+      padding-left: 6%;
+      /* border: solid black 1px; */
+      margin: 25px auto;
+      /* padding: 0px; */
+      display: block;
+      /* position: absolute; */
+      font-size: 85px;
+      font-family: "Dela Gothic One", cursive;
+      font-family: "Train One", cursive;
+    }
+    .bottom {
+      float: right;
+      margin-right: 5%;
+      padding-bottom: 50px;
+    }
+  }

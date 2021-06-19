@@ -1,0 +1,123 @@
+@import "globals.less";
+
+
+.icon-circle {
+    width           : 40px;
+    height          : 40px;
+    background-color: var(--appLightGray);
+    border-radius   : 50%;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+#profile {
+    display       : flex;
+    position      : relative;
+    flex-direction: column;
+    align-items   : center;
+    width         : 100%;
+    max-width     : var(--appMaxWidth);
+    margin        : 30px auto;
+    display: none;
+    .player-avatar{
+        width:140px;
+    }
+    .back-to-main {
+        position: absolute;
+        left    : 30px;
+    }
+
+    .player-name {
+        margin: 4px 0 0 0;
+    }
+
+    .player-rank {
+        color : var(--appFontColor);
+        margin: 0 0 8px 0;
+    }
+
+    .profile-menu {
+        width    : var(--subAppWidth);
+        max-width: var(--subAppMaxWidth);
+
+        h3 {
+            margin-top    : 60px;
+            text-transform: uppercase;
+            font-weight   : 500;
+            color         : var(--appDarkGray);
+        }
+
+        .edit-btn {
+            display      : flex;
+            width        : 100%;
+            align-items  : center;
+            padding      : 15px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            background   : white;
+            box-shadow   : var(--standardShadow);
+            border       : none;
+            .clamp(font-size, 16px, 2.5vw, 17px);
+
+            span {
+                margin-left: 25px;
+            }
+
+            .go-forward {
+                margin-left: auto;
+                transform  : scale(-0.7);
+            }
+        }
+
+        .info-section {
+            display    : flex;
+            align-items: center;
+            margin     : 10px 4px;
+            &:last-of-type{
+                margin-bottom: 25px;
+            }
+            .title {
+                margin-left: 20px;
+            }
+
+            .switch {
+                margin-left: auto;
+            }
+
+            .description {
+                margin-left: auto;
+                color      : var(--appFontColor);
+            }
+        }
+
+        .separator {
+            margin-left:auto;
+            width        : calc(100% - 50px);
+            border-bottom: 2px solid var(--appLightGray);
+        }
+
+        .exp-meter{
+            border-radius: 60px;
+            width:100%;
+            overflow: hidden;
+            height:44px;
+            background:var(--appDarkGray);
+            box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.25);
+            margin-bottom: 15px;
+            .exp-meter-fill{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // width:80%;
+                background:var(--appLightGray);
+                height:100%;
+                border-radius: 60px 200px 0 60px;
+                span:last-of-type{
+                    margin-left:10px;
+                    color:var(--appFontColor);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(255, 255, 242);
+}
+
+.wrapper {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 750px;
+}
+
+audio{
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.buss-card {
+  margin-top: -20px;
+  margin: 0px auto;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 300px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: rgb(255, 238, 0);
+  border: 15px #141414 solid;
+}
+#logo {
+  position: absolute;
+  display: flex;
+  background-image: url("../ex4/images/bj.svg");
+  background-repeat: no-repeat;
+  justify-self: center;
+  background-size: 200px;
+  width: 200px;
+  height: 240px;
+  margin-right: 6px;
+  opacity: 0.1;
+}
+.bottom .left {
+  display: grid;
+  letter-spacing: 0.03cm;
+  width: 50%;
+  height: 50%;
+  align-content: center;
+  justify-content: center;
+  border-right: 3px #2c2c2c solid;
+}
+
+.left p {
+  display: flex;
+  letter-spacing: 0.03cm;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  font-variant: small-caps;
+  padding-left: 10px;
+  color: #141414;
+  width: 100%;
+}
+
+.left p.name {
+  display: flex;
+  font-size: 36px;
+  margin-right: 15px;
+  margin-top: -1px;
+  justify-content: center;
+  width: 100% auto;
+}
+.left p.role {
+  display: flex;
+  font-size: 18px;
+  width: 100%;
+  margin-top: -20px;
+  margin-right: 15px;
+}
+.bottom .right {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-left: 5px;
+  align-items: center;
+}
+ul {
+  display: grid;
+  list-style: none;
+  margin-left: -15px;
+  width: 100%;
+}
+ul li {
+  display: block;
+  margin: 10px;
+  font-size: 15px;
+  color: #141414;
+}
+footer {
+  position: absolute;
+  display: flex;
+  width: 88%;
+  justify-content: center;
+  font-size: 18px;
+  color: #141414;
+  padding-top: 700px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: block; /* מגדירים את כל האלמנטים האלה כאל בלוק */
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #fffd;
+}
+
+.nav_links:hover{
+  color: #acacac;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+/* TOP PAGE */
+#top {
+  background-color: #495838;
+  text-transform: uppercase;
+
+}
+
+#logo {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/Design/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#logo span {
+  display: block;
+  font-family: tahoma;
+  padding-left: 50px;
+  padding-top: 10px;
+  color: #fffd;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 30px;
+  width: 100%;
+  text-decoration: none;
+  color: #fffd;
+  list-style: none;
+}
+
+nav ul li{
+  margin-right: 25px;
+}
+
+#home {
+  font-weight: bold;
+}
+
+#products {
+  margin-left: 35px;
+  margin-top: 55px;
+  border-radius: 15px;
+  width: 445px;
+  height: 311px;
+}
+
+#sign_up {
+  margin-top: 40px;
+  margin-bottom: 55px;
+  background-color: #fffd;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  align-self: center;
+  color: #495838;
+  border-radius: 6px;
+  border: none;
+  width: 160px;
+  height: 50px;
+  outline: inherit;
+  cursor: pointer;
+}
+#sign_up span {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* MIDDLE PAGE */
+#middle {
+  background-color: rgb(230, 230, 230);
+}
+
+#middle header {
+  padding-top: 10px;
+  display: block;
+  text-transform: uppercase;
+}
+
+#middle a {
+  display: block;
+  width: 40%;
+  font-size: 14px;
+  color: #495838;
+  text-transform: none;
+}
+
+#middle p {
+  display: block;
+  padding-top: 50px;
+  width: 35%;
+  font-size: 14px;
+  color: black;
+  text-transform: none;
+}
+#learn_more {
+  padding-bottom: 50px;
+
+}
+
+.grid{
+  display: flex;
+  width: 100%;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 55px;
+}
+
+.gridbullet{
+  border-radius: 9px;
+  padding-left: none;
+  width: 330px;
+  margin-right: 20px;
+}
+
+.grid_bull_descr{
+  background-color: #495838;
+  display: block;
+  position: absolute;
+  color: rgb(230, 230, 230);
+  width: 330px;
+  margin-top:300px;
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+  left: 60px;
+  border-radius: 5px;
+}
+
+#hyaluronic{
+  color: rgb(230, 230, 230);
+  left: 410px;
+}
+
+#booster{
+  color: rgb(230, 230, 230);
+  left: 760px;
+}
+
+/* BOTTOM PAGE */
+
+#bottom{
+  background-color: rgb(236, 232, 223);
+  height: 657px;
+}
+#bottom_h1{
+  padding-top: 10px;
+}
+
+/* Contact Grid */
+#bottom_grid{
+  padding-top: 25px;
+}
+
+.gridbullet_bottom{
+  display: block;
+  background-color:rgb(248, 246, 239);
+  width: 242px;
+  height: 190px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #5f5f5f;
+}
+
+.gridbullet_bottom .symbol{
+  width: 60px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.bottom_grid_h1{
+  color: black;
+  margin-bottom: 10px;
+}
+
+#lavender{
+  width: 50px;
+}
+#oil{
+  width: 53px;
+}
+#shea{
+  width: 57px;
+}
+#lotus{
+  width: 54px;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+  background-color: #495838;
+  background-repeat: no-repeat;
+  color: rgb(230, 230, 230);
+  height: 80px;
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* padding-top: 40px; */
+}
+
+
+footer #copyrights{
+  display: inline-block;
+  padding-top: 23px;
+  padding-left: 80px;
+}
+
+footer span img{
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+} 
+footer #social{
+  margin-left: 60px;
+}

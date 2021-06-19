@@ -1,0 +1,86 @@
+<!-- 2 htmls, one for each form. 
+	 uplaod to ex4 on github/shenkar host (index1.html for form1, index2.html for form2)
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/‏‏style1.css">
+	<title>Form 1</title>
+</head>
+
+<body>
+	<h1>Form #1</h1>
+	<div class="wrapper">
+	<form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET">
+		<div class="part-left">
+		<label for="fullName">Full Name</label>
+		<input type="text" name="fullName" pattern="\w+\s+\w+" autocomplete>
+
+		<br>
+		<label for="pass">Password</label>
+		<input type="password" name="pass" pattern="[0-9]{4}" title="4 Numbers Pin">
+		
+		<br>
+		<label for="mail">E-Mail</label>
+		<input type="email" name="mail">
+
+		<br>
+		<label for="website">Website</label>
+		<input type="url" name="website">
+
+		<!-- you can use type "tel", but Yonit doesnt want "-" in it so we use "number" -->
+		<!-- add pattern -->
+		<br>
+		<label for="phone">Phone Number</label>
+		<input type="tel" name="phone" pattern="[0-9]{10}" title="10 Digits, no '-'">
+
+		<br>
+		<label for="coffee">Coffee</label>
+		<input type="number" name="coffee" min="0" max="5"> 
+
+		<br>
+		<br>
+		<label for="temper">Temperature</label>
+		<input type="range" name="temper">
+		
+		<br>
+		<label for="address">Address</label>
+		<input type="text" name="address" >
+	</div>
+	<div class="part-right">
+
+		<label class="h" for="interests[]">Interests</label>
+		<!-- other way to write label => put the input inside the label instead of writing "for" like above -->
+		<label>Reading Books <input type="checkbox" name="interests[]" value="Reading Books"></label>
+		<label>Programming<input type="checkbox" name="interests[]" value="Programming"></label>
+		<label>Travel<input type="checkbox" name="interests[]" value="Travel"></label>
+		<label>Wake Up<input type="checkbox" name="interests[]" value="Wake Up"></label>
+		<br>
+		<br>
+		<label class="h" for="gender">Gender</label>
+		<label>Male<input type="radio" name="gender" value="Male" required></label>
+		<label>Female<input type="radio" name="gender" value="Female" required></label>
+		<label>Other<input type="radio" name="gender" value="Female" required></label>
+		<br>
+		<br>
+		<label class="h" for="age">Age</label>
+		<select name="age" required>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+		</select>
+	</div>
+	<input class="sub" type="submit">
+</form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Javascript - console printing</title>
+
+
+</head>
+
+
+
+<body>
+	<script>
+		var a=8; //a = 8
+		var b=2; //b = 2
+		(function foo(){
+			a=10; //changes the value of a to 10
+			b=5; //changes the value of b to 5
+			console.log('a + b = ', a+b); //prints "15"
+		})();
+		console.log('a = ', a); //a = 10
+		console.log('b = ', b); //b = 5
+	</script>
+</body>
+
+</html>

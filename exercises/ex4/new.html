@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap' rel='stylesheet'>
+    <title>Form 2</title>
+</head>
+
+<body class="main" onload="document.bc.name.focus()">
+    <h1>Create your business card !</h1>
+    <div class="wrapper">
+        <form name="bc" action="./get_new.php" method="GET">
+            <label for="fullName">Full Name:</label>
+            <br>
+            <input type="text" name="name" title="Optimal: 20 Digits Max" autocomplete required>
+            <br>
+            <br>
+            <label for="job">Job Title:</label>
+            <br>
+            <input type="text" name="job" autocomplete required>
+            <!--  -->
+            <br>
+            <br>
+            <label for="phone">Phone No.:</label>
+            <br>
+            <input type="text" name="phone" pattern="[0-9-+]{10,13}" title="10-13 Digits (0-9, '-', '+')" autocomplete
+                required>
+            <br>
+            <br>
+            <label for="E-mail">E-mail:</label>
+            <br>
+            <input type="email" name="mail" autocomplete required>
+            <br>
+            <br>
+
+            <label for="web1name">Social Link:</label>
+            <select name="web1name">
+                <option value="Linkedin">Linkedin</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Github">Github</option>
+                <option value="Social">Other-Social</option>
+                <option value="Professional">Other-Professional</option>
+                <option value="Other">Other</option>
+            </select>
+            <label class="url" for="web1url">URL:</label>
+            <input class="url" type="text" name="web1url" title="Optimal: 30 Digits" value="linkedin.com/in/name"
+                autocomplete required>
+            <br>
+            <br>
+            <label class="url" for="web2name">Other Link:</label>
+            <select name="web2name">
+                <option value="Linkedin">Linkedin</option>
+                <option value="Facebook">Facebook</option>
+                <option selected value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Github">Github</option>
+                <option value="Other-Social">Other-Social</option>
+                <option value="Professional">Other-Professional</option>
+                <option value="Other">Other</option>
+            </select>
+            <label class="url" for="web2url">URL:</label>
+            <input class="url" type="text" name="web2url" title="Optimal: 30 Digits" value="@user.name" autocomplete
+                required>
+            <br>
+            <br>
+            <br>
+            <label for="style">Style: </label>
+            <input class="radio" type="radio" name="style" value="Dark" required></input>
+            <label class="stl">Dark</label>
+            <input class="radio" type="radio" name="style" value="Light" required></input>
+            <label class="stl">Light</label>
+            <input class="radio" type="radio" name="style" value="B.Jerusalem" required></input>
+            <label class="stl">B.Jerusalem</label>
+            <input class="gen" type="submit" name="submit" value="Go!" onclick='CheckPhone(document.bc.phone)'>
+    </div>
+    </form>
+    <footer id="test">&copy;2021, Ido Dor. All rights reserved.</footer>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

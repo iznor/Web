@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: block;
+}
+
+section {
+  display: block; /* מגדירים את כל האלמנטים האלה כאל בלוק */
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.nav_links:hover {
+  color: #acacac;
+}
+.nav_links {
+  color: #ffffff;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+/* TOP PAGE */
+#top {
+  background-color: #ed4c5c;
+  text-transform: uppercase;
+}
+
+#logo {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/Design/poke_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#logo span {
+  display: block;
+  font-family: tahoma;
+  padding-left: 50px;
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 30px;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+#home {
+  font-weight: bold;
+}
+
+#products {
+  margin-left: 35px;
+  margin-top: 55px;
+  border-radius: 15px;
+  width: 445px;
+  height: 311px;
+}
+
+#sign_up {
+  margin-top: 40px;
+  margin-bottom: 55px;
+  background-color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  align-self: center;
+  color: #ed4c5c;
+  border-radius: 6px;
+  border: none;
+  width: 160px;
+  height: 50px;
+  outline: inherit;
+  cursor: pointer;
+}
+#sign_up span {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* MIDDLE PAGE */
+#middle {
+  background-color: #ffffff;
+}
+
+.page_h1 {
+  text-transform: none;
+}
+
+#middle header {
+  display: block;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+#middle a {
+  font-size: 14px;
+  color: #ed4c5c;
+  text-transform: none;
+}
+
+#middle p {
+  display: block;
+  padding-top: 50px;
+  width: 35%;
+  font-size: 14px;
+  color: black;
+  text-transform: none;
+}
+#learn_more {
+  padding-bottom: 50px;
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 70px;
+}
+.grid li {
+  margin-right: 20px;
+}
+.gridbullet {
+  border-radius: 9px;
+  padding-left: none;
+  width: 330px;
+}
+
+.grid_bull_descr {
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  color: #ed4c5c;
+  width: 330px;
+  margin-top: 200px;
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+  left: 50px;
+  border-radius: 15px;
+}
+
+#hyaluronic {
+  left: 400px;
+}
+
+#booster {
+  left: 750px;
+}
+
+/* BOTTOM PAGE */
+
+#bottom {
+  background-color: #f5f4f4;
+  height: 610px;
+}
+#bottom_h1 {
+  padding-top: 10px;
+}
+
+/*Bottom Grid */
+#bottom_grid {
+  padding-top: 25px;
+}
+
+.grid li {
+  margin-right: 20px;
+}
+
+.gridbullet_bottom {
+  display: block;
+  background-color: #ffffff;
+  width: 242px;
+  height: 190px;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.gridbullet_bottom .symbol {
+  width: 60px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.bottom_grid_h1 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+#lavender {
+  width: 53px;
+}
+#oil {
+  width: 53px;
+}
+#shea {
+  width: 57px;
+}
+#lotus {
+  width: 54px;
+}
+
+/* FOOTER */
+footer {
+  display: block;
+  width: 100%;
+  background-color: #ed4c5c;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 80px;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer #copyrights {
+  display: inline-block;
+  padding-top: 23px;
+  padding-left: 80px;
+}
+
+footer span img {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+}
+footer #social {
+  margin-left: 50px;
+}

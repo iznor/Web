@@ -326,39 +326,36 @@ window.onload = async () => {
             $("#game").empty();
             $("#game").append(`
             <header>
-                <div class="spotlight-container active">
-                    <img class="spotlight" src="assets/svg/left-spotlight.svg" alt="spotlight">
-                    <div class="lights active">
+                <div class="spotlight-container">
+                    <div class="lights">
                         <img class="opponent" src="${gamePicks.godCharacter.src}" alt="steve jobs">
                         <span>${gamePicks.godCharacter.name}</span>
                     </div>
-                    <img class="spotlight" src="assets/svg/right-spotlight.svg" alt="spotlight">
                 </div>
                 <div class="clock-container">
                     <img class="clock" src="assets/svg/clock.svg" alt="clock">
                     <p>0:03</p>
                 </div>
-                <div class="spotlight-container">
-                    <div class="dummy-spacer"></div>
-                    <div class="lights">
+                <div class="spotlight-container active">
+                    <img class="spotlight" src="assets/svg/left-spotlight.svg" alt="spotlight">
+                    <div class="lights active">
                         <img class="player" src="${state.player.user_avatar}" alt="player">
                         <span>${state.player.username}</span>
                     </div>
+                    <img class="spotlight" src="assets/svg/right-spotlight.svg" alt="spotlight">
                     <div class="dummy-spacer"></div>
                 </div>
             </header>
             <main class="messages-container">
-                <div class="message rival">asdasdasdas
-                asdasssssssssssss
-                asdasd
-                sadsadssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-                Ohad Baehr</div>
-                <div class="message player">asdasdasdas</div>
-                <div class="message rival">asdasdasdas</div>
+                <div class="message player">Dear god, who was the first president of America ?</div>
+                <div class="message rival">Is it indeed that important to know ?</div>
+                <div class="message player">Yes I have been looking for answers for a long time</div>
+                <div class="message rival">Then google it bro, I was just a bout to take a nap</div>
             </main>
             
             <div class="input-container"><span class="input"  role="textbox" contenteditable>
-            </span></div>
+            
+            </span><div class="icon"></div></div>
             `);
             $("#game").css("display", "flex");
             $("#app").css("display", "none");

@@ -8,6 +8,7 @@
     margin        : auto;
     align-items   : center;
     height        : 100vh;
+    
 
     header {
         display        : flex;
@@ -124,7 +125,7 @@
     .input-container {
         display:flex;
         justify-content: center;
-        position: absolute;
+        position: fixed;
         width:100%;
         height:calc(4vh + 60px);
         bottom:0;
@@ -135,6 +136,7 @@
             padding         : 15px 18px;
             border-radius   : 40px;
             width           : calc(100% - 40px);
+            padding-right   : 50px;
             transition      : 0.15s;
             box-shadow      : var(--standardShadow);
             outline         : none;
@@ -148,6 +150,69 @@
                 transition: 0.05s;
             }
         }
+        .icon{
+            position: absolute;
+            display: block;
+            background-image: url("../assets/svg/send.svg");
+            filter: opacity(70%);
+            background-size: cover;
+            width: 30px;
+            height: 30px;
+            justify-self: right;
+            z-index: 1;
+            right:40px;
+            margin-top: 8px;
+        }
     }
+    
+    @media screen and (max-width: 500px) {
+  
 
-}
+        .spotlight-container{
+
+            .player,
+            .opponent {
+                transform: scale(0.9) !important;
+            }
+
+            .spotlight {
+                align-self: flex-start;
+                width     : 20px !important;
+            }
+
+            .dummy-spacer {
+                width: 20px !important;
+            }
+
+            .lights {
+                display        : flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items    : center;
+                padding        : 50px 8px 45px 8px !important;
+                border-radius  : 60px 60px 12px 12px;
+                margin-bottom  : 5px;
+                span{
+                    margin-top:5px;
+                }
+                &.active {
+                    background-color: #F2CF89;
+                }
+            }
+        }
+
+        .clock-container {
+            background   : var(--appLightGray);
+            padding      : 5px 10px 0 10px;
+            margin-bottom: 10px;
+            border-radius: 0 0 60px 60px;
+            box-shadow   : var(--standardShadow);
+
+            p {
+                margin: 0;
+            }
+        }
+
+      }
+
+}    

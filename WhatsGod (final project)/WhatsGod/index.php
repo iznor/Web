@@ -13,7 +13,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What's God</title>
-	<link rel="icon" type="image/png" sizes="16x16" href="../assets/png/whatsGod.png">
     <link rel="stylesheet/less" type="text/css" href="./css/style.less" />
     <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap' rel='stylesheet'>
 </head>
@@ -76,14 +75,7 @@
     <script src="./js/script.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    </body>
 
 </html>
-
-<?php
-
-//close DB connection
-
-mysqli_close($connection);
-
-?>

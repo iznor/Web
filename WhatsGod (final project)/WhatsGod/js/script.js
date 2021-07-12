@@ -176,8 +176,20 @@ window.onload = async () => {
                         <span class="title">E-Mail</span>
                         <span class="description">${email}</span>
                     </section>
+                    ${player
+                        ? ""
+                        :  `<section class="info-section">
+                                <span class="title logout">
+                                    <div id="lout">Log Out</div>
+                                </span>
+                            </section>`
+                    }   
                 </section>
             `);
+            $("#lout").click(() => {
+                    Cookies.remove('PHPSESSID',{path:'/'})
+                    window.open('../index.php','_self');
+                });
             $("#app").css("display", "none");
             $("#profile").css("display", "flex");
             $("#profile .back-to-main").click(() => {
